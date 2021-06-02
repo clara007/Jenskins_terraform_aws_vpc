@@ -15,5 +15,5 @@ variable "key_name" {
 
 variable "key_path" {
   type        = string
-  default     = "~/.ssh/"
+  default     = "/var/lib/jenkins/.ssh/"
 }
